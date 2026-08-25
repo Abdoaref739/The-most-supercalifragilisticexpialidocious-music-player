@@ -126,6 +126,12 @@ div {
     margin-left: 50%;
     cursor: url("./images/icons8-cursor-50.png"), auto;
 }
+footer{
+    font-size: 15px;
+    font-family: "titleFont1";
+    margin-top: 2px;
+    color: white;
+}
 @media screen and (max-width: 1200px){
     #progress-bar{
         width: 250px;
