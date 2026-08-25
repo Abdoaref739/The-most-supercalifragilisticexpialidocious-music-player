@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: "textFont1";
+    src: url("./fonts/Matcha\ Mint.ttf");
+}
 body{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
      background-color: #191414;
     background-size: cover;
@@ -22,20 +27,22 @@ body{
     background-color: #161010;
     padding-top: 30px;
     padding-bottom: 20px;
-    margin-top:20px;
+    margin-top: 35px;
     border: 2px solid #0a0707;
     box-shadow: 9px 6px 0 #0a0707;
 }
 .album-name{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 10px;
     color: white;
+    font-family: "textFont1"
 }
 .author-name{
     font-size: 18px;
     font-weight: 200;
     margin-top: 5px;
     color: white;
+    font-family: "textFont1"
 }
 .album-image{
     width: fit-content;
@@ -55,12 +62,7 @@ div {
     height: fit-content;
     margin-top: 0px;
 }
- div > .album-duration{
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: 10px;
-    color: white;
-}
+
 #progress-bar{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -113,4 +115,11 @@ div {
 #current-time{
     font-size: 18px;
     color: white;
+    font-family: "TextFont1";
+}
+#volume-icon{
+    color: white;
+    font-size: 30px;
+    margin-left: 50%;
+    cursor: pointer;
 }

@@ -82,3 +82,6 @@ music.addEventListener("timeupdate", function(){
 progressBar.addEventListener("change", function(){
     music.currentTime = progressBar.value;
 })
+
+
+let volumeIcon = document.getElementById("volume-icon");
