@@ -13,6 +13,7 @@ body{
     flex-direction: column;
      background-color: #191414;
     background-size: cover;
+    cursor:url("./images/icons8-cursor-60.png");
 }
 
 .container{
@@ -88,7 +89,7 @@ div {
     font-size: 30px;
     border-color: transparent;
     margin-top: 0px;
-    cursor: pointer;
+    cursor: pointer, url("./images/icons8-cursor-60.png");
 }
 .player-bottom-div{
     width: 100%;
@@ -110,7 +111,7 @@ div {
     margin-left: 30px;
     margin-right: 30px;
     padding: 20px;
-    cursor: pointer;
+    cursor: pointer, url("./images/icons8-cursor-60.png");
 }
 #current-time{
     font-size: 18px;
@@ -121,5 +122,5 @@ div {
     color: white;
     font-size: 30px;
     margin-left: 50%;
-    cursor: pointer;
+    cursor: pointer, url("./images/icons8-cursor-60.png");
 }
