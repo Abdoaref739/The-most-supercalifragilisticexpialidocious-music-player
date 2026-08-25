@@ -13,7 +13,6 @@ const songs = [
 
 window.onload = function(){
     albumName.innerHTML = songs[songIndex].name;
-    albumAuthor.innerHTML = songs[songIndex].author;
 }
 
 let forwardBtn = document.getElementById("forward-btn");
@@ -73,6 +72,11 @@ music.addEventListener("loadedmetadata", () => {
         }
 
         progressBar.max = music.duration;
+
+
+
+
+
     }, 1000);
 });
 music.addEventListener("timeupdate", function(){
